@@ -13,17 +13,36 @@
    <p id = "description"> thank you for taking the time to  help us to improve the plateform   </p>
 
     <form  id = "survey-form"  method="post"> 
-      <label id="name-label">name</label><br>
-      <input  id = "name"  type ="text"  placeholder = "Enter your name" required><br><br><br><br>
+
+
+      <!--<label id="name-label">name</label><br>
+     <input  class = "text" id = "name"  type ="text"  placeholder = "Enter your name" required><br><br><br><br>
       <label id="email-label" placeholder="enter your email" >Email</label><br>
       <input   id = "email"  type ="email"  placeholder = "Enter your email"  required><br><br><br><br>
       <label id="number-label">Age (optional) </label><br>
-      <input   id = "number"  type ="number" placeholder ="Age" min="1" max ="99" ><br><br><br><br>
+      <input   id = "number"  type ="number" placeholder ="Age" min="1" max ="99" ><br><br><br><br>-->
      
 
-      <label id="dropdown-option">which option describes you</label>
+
+      <label for="name" id="name-label"> name:</label><br>
+      <input type="text" id="name" name="name" size="36"  type ="text"  placeholder = "Enter your name" required ><br><br>
+
+      <label for="email" id="email-label"> Email:</label><br>
+      <input type="email" id="email" name="email" size="36"  type ="text"  placeholder = "Enter your email" required ><br><br>
+
+      <label for="Age" id="number-label">Age (optional) </label><br>
+      <input  type ="number"  id = "number"  name="Age" placeholder ="Age" min="1" max ="99" size="20"><br><br><br><br>
+
+
+
+
+
+
+
+
+      <label  id="dropdown-option">which option describes you</label>
       <p><select  id = "dropdown">
-        <option value="t0"  selected disabled >current role</option>
+        <option  value="t0"  selected disabled >current role</option>
         <option value="t1">student</option>
         <option value="t2" >full-time student</option>
         <option value="t3">full-time learner</option>
@@ -77,8 +96,8 @@
                <input name="Forum"  value="Forum" type ="checkbox" >Forum</input><br>
                <input name="additional courses"  value="additional courses"  type ="checkbox">additional courses</input><br><br><br>  
               <label>any comments or suggestions</label><br><br>
-               <textarea id="additional comments" name="additional comments" rows="5" cols="50">enter your comment here</textarea><br><br>
-               <button class="submit-button" type="submit" value="submit" id="submit">submit</button>
+               <textarea class="textarea" id="additional comments" name="additional comments" rows="5" cols="50">enter your comment here</textarea><br><br>
+               <button class="submit-button" type="submit" value="submit" id="submit" size="20">submit</button>
       </form>
 
       

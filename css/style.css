@@ -18,13 +18,10 @@ form {
     flex-wrap: wrap;
     display: block;
     font-size: larger;
+    
    }
 
-#survey-form
-{
- color: aliceblue;
-  
-}
+
 
 #submit-button
 {
@@ -48,10 +45,25 @@ form {
 input {
     text-align: center;
     text-transform: capitalize;
-    height:20px; font-size:14pt; 
+    height:20px; 
+    font-size:14pt; 
+    padding: 15px;
+    margin: 5px;
     
 }
 #dropdown{
     font-size: large;
-
+    padding: 10px;
+    size:50px;
+    margin: 5px;
 }
+
+
+#textarea{
+    margin: 5px;
+    font-size: larger;
+    resize:50px;
+}
+
+
+
